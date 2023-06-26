@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:gravity="center"
+        android:text="Color Changer"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20sp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/black_btn"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:backgroundTint="#000000"
+            android:text="Black" />
+        <Button
+            android:id="@+id/white_btn"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:text="White"
+            android:textColor="#000000" />
+        <Button
+            android:id="@+id/yellow_btn"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFF00"
+            android:text="Yellow"
+            android:textColor="#000000" />
+        <Button
+            android:id="@+id/red_btn"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:backgroundTint="#FF0000"
+            android:text="Red" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="20sp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/green_btn"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:backgroundTint="#00FF00"
+            android:text="Green" />
+        <Button
+            android:id="@+id/cyan_btn"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:backgroundTint="#00FFFF"
+            android:text="Cyan" />
+        <Button
+            android:id="@+id/magenta_btn"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:backgroundTint="#FF00FF"
+            android:text="Magenta" />
+        <Button
+            android:id="@+id/blue_btn"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:backgroundTint="#0000FF"
+            android:text="Blue" />
+    </LinearLayout>
+</FrameLayout>
